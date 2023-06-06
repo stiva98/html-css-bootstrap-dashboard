@@ -16,73 +16,149 @@
 </head>
 <body>
   <header>
-    
-    <div class="row">
-      <div class="col-auto bg-white">
-        <img src="img/logo.svg" alt="logo">
-      </div>
-
-      <div class="col bg-white">
-        <div class="mb-3">
-          <input type="text" class="form-control bg-body-secondary" id="formGroupExampleInput" placeholder="Prova a cercare: Lezioni di Lavarel">
+    <div class="container-fluid">
+      <div class="row align-items-center bg-white">
+        <div class="col-auto">
+          <img src="img/logo.svg" alt="logo" class="d-none d-lg-block">
+          <img src="img/mobile-logo.png" alt="mobile logo" class="d-lg-none my-logo">
         </div>
-      </div>
-
-      <div class="col-auto bg-white">
-        <ul class="d-flex">
-          <li class="list-unstyled">
-            <a href="" class="text-black"><i class="bi bi-list-ul"></i></a>
-          </li>
-          <li class="list-unstyled">
-            <a href="" class="text-black"><i class="bi bi-question-circle-fill"></i></a>
-          </li>
-          <li class="list-unstyled">
-            <a href="" class="text-black"><i class="bi bi-three-dots-vertical"></i></a>
-          </li>
-        </ul>
-
+  
+        <div class="col">
+          <div class="input-group">
+            <span class="input-group-text bg-secondary-subtle"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <input class="form-control bg-secondary-subtle" type="text" placeholder="Prova a cercare: Lezione di Lavarei">
+          </div>
         </div>
-        <div class="dropdown">
-          <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-bell-fill text-warning"></i>
-          </a>
-        
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" href="#">Profilo</a>
+  
+        <div class="col-auto">
+          <ul class="d-flex mb-0 ps-0">
+            <li class="list-unstyled ps-1 pe-1 d-none d-lg-block">
+              <a href="" class="text-black"><i class="bi bi-list-ul"></i></a>
             </li>
-            <li>
-              <a class="dropdown-item" href="#">Fatturazione</a>
+            <li class="list-unstyled ps-1 pe-1 d-none d-lg-block">
+              <a href="" class="text-black"><i class="bi bi-question-circle-fill"></i></a>
             </li>
-            <li>
-              <a class="dropdown-item" href="#">Log Out</a>
+            <li class="list-unstyled ps-1 pe-1 d-none d-lg-block">
+              <a href="" class="text-black"><i class="bi bi-three-dots-vertical"></i></a>
+            </li>
+            <li  class="list-unstyled ps-1 pe-1">
+              <div class="dropdown">
+                <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-bell-fill text-warning"></i>
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Profilo</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Fatturazione</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Log Out</a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
       </div>
     </div>
-  
   </header>
 
   <main>
-    <aside>
-      <div class="container-fluid">
-
+    <aside class="d-flex flex-column justify-content-between ">
+    
+      <nav class="p-3">
         <ul class="pt-4 mb-0 ps-0">
           <li class="list-unstyled">
-            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-house pe-3"></i>Home</a>
+            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-house pe-3"></i><span>House</span></a>
           </li>
           <li class="pt-3 pb-3 list-unstyled">
-            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chart-simple pe-3"></i>Stats</a>
+            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-chart-simple pe-3"></i><span>Stats</span></a>
           </li>
           <li class="list-unstyled">
-            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-signal pe-3"></i></i>Signals</a>
+            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-signal pe-3"></i></i><span>Signal</span></a>
           </li>
         </ul>
-      </div>
+      </nav>
+
+      <nav class="p-3">
+        <ul class="pt-4 mb-0 ps-0">
+          <li class="list-unstyled">
+            <a href="#" class="text-white text-decoration-none"><i class="fa-solid fa-gear pe-3"></i><span>Admin</span></a>
+          </li>
+        </ul>
+      </nav>
+  
     </aside>
 
-    <section class="main-container">
-      <div class="debug">
+    <section class="main-container overflow-y-auto">
+      <div class="bg-primary w-100">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="">
+                Boolean
+                <span class="badge rounded-pill bg-secondary opacity-50 my-badge">Primary</span>
+              </h1>
+            </div>
+            <div class="col-lg-4">
+              ciao
+            </div>
+            <div class="col-lg-2">
+              ciao
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
+        <p>
+          ciao
+        </p>
         
       </div>
     </section>
