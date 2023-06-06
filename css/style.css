@@ -28,7 +28,12 @@ aside {
 .my-width {
     width: 1.875rem;
 }
-
+.bg-opacity {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.my-fw {
+    font-weight: 400!important;
+}
 
 
 
@@ -36,6 +41,12 @@ aside {
 aside nav ul li:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
+.ps-2 .btn-primary:hover {
+    background-color: white;
+    color: black;
+}
+
+
 
 
 
@@ -53,5 +64,8 @@ aside nav ul li:hover {
     }   
     .main-container {
         width: calc(100% - 3.75rem);
+    }
+    .my-offcanvas-width {
+        width: 100%!important;
     }
 }
