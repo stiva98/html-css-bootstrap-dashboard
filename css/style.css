@@ -29,7 +29,7 @@ aside {
     width: 1.875rem;
 }
 .off-width {
-    width: 37.5rem!important;
+    width: 50%!important;
 }
 .bg-opacity {
     background-color: rgba(0, 0, 0, 0.3);
@@ -40,6 +40,11 @@ aside {
 .my-fs {
     font-size: .875rem;
 }
+.my-width-table {
+    width: 7.5rem;
+}
+
+
 
 
 /*----SCROLLBAR-----*/
