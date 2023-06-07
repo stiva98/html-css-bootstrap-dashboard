@@ -128,7 +128,7 @@
                   <i class="fa-solid fa-plus"></i>
                 </button>
                 
-                <div class="offcanvas offcanvas-end my-offcanvas-width" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas offcanvas-end my-offcanvas-width off-width" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                   <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="staticBackdropLabel">Inserisci un nuovo studente</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -302,13 +302,10 @@
                 <div class="card-header fw-bold fs-4">Todo</div>
                 <div class="card-body">
                   <div class="form-check fw-bold">
-                    <div class="border border-secondary">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
-                        Kickoff nuove classi
-                      </label>
-
-                    </div>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Kickoff nuove classi
+                    </label>
                   </div>
                   <div class="form-check fw-bold">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -327,8 +324,21 @@
 
               <div class="card border-secondary mb-3">
                 <div class="card-body">
-                  <h5 class="card-title">Secondary card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="card">
+                    <img src="img/stats.jpeg" class="card-img-top" alt="stats">
+                    <div class="card-body">
+                      <h5 class="card-title">Utenti attivi</h5>
+                      <p class="card-text my-fs">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item my-fs">Gennaio: 1200</li>
+                      <li class="list-group-item my-fs">Febbraio: 800</li>
+                      <li class="list-group-item my-fs">Marzo: 1500</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link my-fs">Visualizza report approfondito</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

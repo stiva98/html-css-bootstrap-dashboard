@@ -28,11 +28,17 @@ aside {
 .my-width {
     width: 1.875rem;
 }
+.off-width {
+    width: 37.5rem!important;
+}
 .bg-opacity {
     background-color: rgba(0, 0, 0, 0.3);
 }
 .my-fw {
     font-weight: 400!important;
+}
+.my-fs {
+    font-size: .875rem;
 }
 
 
